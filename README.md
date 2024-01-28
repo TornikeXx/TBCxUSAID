@@ -1,21 +1,27 @@
-#Project structure#
-პროექტის სტრუქტურა გამოიყურება შემდეგნაირად:
-პროექტის ირგვლივ სამუშაო გარემო თავმოყრილია src ფოლდერში,რომელიც შედგება შემდეგი ნაწილებისგან:
-1.assets:
-ამ ფოლდერში მოცემულია ის ფოტომასალა,რომელიც გამოყენებულია პროექტში.
-2.components:
-აქ გხვდება სამი ნაწილი.ესენია navbar,sections,slider.
-navbar ფოლდერში არის ის ფაილები რომელიც ამ საიტის ნავიგაციის კომპონენტის ნაწილია.ესენია navbar.jsx, სადაც დაწერილი კოდიკ განსკუთვნილია საიტის ფართო ეკრანისთვის ანუ ძირიტადი ნაწილი,ხოლო დანარჩენი ორი რესპონიული ნაწილებისთვის(mobile)
-slider ფოლდერში განთავსებულია საიტის ერთ-ერთი ნაწილის ასაწყობად განკუთვნილი კოდი.
-sections ფოლდერში კი საიტის ძირითადი ფეიჯებია განთავსებულია.
-3.hooks:
-აქ არის ფუნქცია რომელიც გამოყენებულია პროექტში.
-4.utils:
-ამ ფოლდერში არის ფუნქცია რომელიც ფართოდაა გამოყენებული პროექტში,კერძოდ გვეხმარება რათა საიტი იყოს responsive.
-#Technologies inside Project#
-პროექტი აწყობილია React. მისი გამოყენება მოსახერხებელია,მეტად გასაგები და კომფურტული გარემოა js კოდის დასაწერად.
-პროექტში გამოყენებულია styled-components,css დაწერა პირადად ჩემთვის ბევრად მარტივია ასევე კოდს ხდის ბევრად გასაგებს და მარტივად წასაკითხს.
-fontawesome გამოყენებულია დახვეწილი აიქონების გამოსაყენებლად. მისი ჩატვირტვა და შემდეგ დაწერა ასევე მარტივი და გასაგებია.
+# Getting Started with Create React App
 
-#DEPLOYMENT#
-NPM run build. რომელის ქმნის build directory with a production build of your app. შემდეგ ვიყენებთ სასურველ HOISTING პლატფორმას რომელიც ჩემს შემთხვევაში არის NETLIFY. BUILD ფაილს ვტვირტავთ სასურველ პლატფორმაზე.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## RUN Project
+
+    basically it's default CRA scripts
+
+### `npm start` for starting the project in dev mode,
+### `npm build` to build the application,
+
+
+## Project Structure
+
+Project is divided into separate folders: 
+    1. assets - are used for images and other static files,
+    2. hooks - for reusable custom hooks, used across the app
+    3. utils - are utility functions for writing helper functions
+    4. components - for reusable components 
+
+    components are divided into separate logical parts, sections folder are for the components which builds up the App page, and the rest should be reusable components
+
+### Technologies 
+   1. Create react app - used for boilerplate
+   2. Styled components - for writing html/css in more React style
+
+
